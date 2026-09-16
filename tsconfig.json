@@ -1,4 +1,39 @@
-{"compilerOptions":{"target":"ES2022","module":"NodeNext","moduleResolution":"NodeNext","rootDir":".","outDir":"dist","strict":true,"esModuleInterop":true,"skipLibCheck":true},"include": [
-  "**/*.ts",
-  "**/*.tsx"
-]}
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "types": [
+      "vite/client",
+      "node"
+    ]
+  },
+
+  "include": [
+    "main.tsx",
+    "src/**/*.tsx",
+    "src/**/*.ts"
+  ],
+
+  "exclude": [
+    "server.ts",
+    "seed.ts",
+    "prisma"
+  ]
+}
