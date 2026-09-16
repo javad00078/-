@@ -1,0 +1,2 @@
+@import "tailwindcss";
+:root{font-family:Inter,system-ui,sans-serif;color-scheme:dark}body{margin:0;background:#070b12;color:#e5e7eb}*{box-sizing:border-box}.panel{background:linear-gradient(145deg,#0d1420,#0a1019);border:1px solid #1e293b;border-radius:14px}
